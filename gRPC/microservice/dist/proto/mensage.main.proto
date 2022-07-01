@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package main;
+
+service MensageService {
+  rpc message (Message) returns (Empty) {}
+ 
+}
+
+message Message {
+  int32 id = 1;
+  string msg = 2;
+}
+
+message Empty{
+
+}

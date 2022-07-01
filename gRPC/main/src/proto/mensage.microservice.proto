@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package microservice;
+
+service MensageService {
+  rpc request (Empty) returns (Empty) {}
+ 
+}
+
+
+message Empty{
+ 
+}
